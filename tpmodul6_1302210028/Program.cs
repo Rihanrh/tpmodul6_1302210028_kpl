@@ -9,8 +9,7 @@ internal class Program
     {
         SayaTubeVideo video = new SayaTubeVideo("Tutorial Design By Contract - Rihan Hidayat");
 
-        video.IncreasePlayCount(10000000);
-        for (int i = 0; i < 100; i++)
+        for (int i = 0; i < 1000; i++)
         {
             video.IncreasePlayCount(10000000);
         }
